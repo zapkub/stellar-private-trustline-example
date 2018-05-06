@@ -1,0 +1,26 @@
+{
+  "name": "stellar-private-trustline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --inspect index.js",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "stellar-sdk": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/next": "^2.4.9",
+    "@types/stellar-sdk": "^0.8.3",
+    "nodemon": "^1.17.4",
+    "tslint": "^5.10.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.3"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+*.js
+*.js.map
+.env
+*.key
+key
+*error.log
